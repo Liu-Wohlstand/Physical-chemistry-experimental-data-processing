@@ -48,9 +48,9 @@ b = [1.0318320177475109, 1.0018534288433603,
 '''
 # 线性回归模块
 
-data = np.array(c)  # 这里只是示例，你应该用你的数据替换这
-x = np.array(b)  # 这里的x值只是示例，你应该用你的x值替换这些
-y = data  # 这里的y值只是示例，你应该用你的y值替换这些
+data = np.array(c)
+x = np.array(b) 
+y = data  
 # 计算直线的斜率
 n = len(x)
 sum_x = np.sum(x)
